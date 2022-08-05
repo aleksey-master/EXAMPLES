@@ -1,0 +1,11 @@
+﻿Console.WriteLine("Деление чисел");
+Console.Write("Числитель дроби  ");
+//Console.ReadLine(double numberA);
+double numberA = new Random().Next(0,20);
+Console.WriteLine (numberA);
+Console.Write("Знаменатель дроби  ");
+//Console.ReadLine(double numberB);
+double numberB = new Random().Next(0,20);
+Console.WriteLine (numberB);
+Console.Write("Равно  ");
+Console.WriteLine(numberA/numberB);
